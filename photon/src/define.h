@@ -1,5 +1,5 @@
-#define DE   PA12
-#define _RE  PA11
+#define DE   PB12 //Original PA12
+#define _RE  PB11 //Original PA11
 
 #define LED_R PA7   
 #define LED_G PA6
@@ -8,8 +8,8 @@
 #define SW1 PB1
 #define SW2 PB0
 
-#define PEEL1    PB3
-#define PEEL2    PA15
+#define PEEL1    PA15  //Original PB3
+#define PEEL2    PB3   //Original PA15
 
 #define ONE_WIRE PA8
 #define MOTOR_ENABLE PA2
